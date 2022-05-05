@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="farmacie">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="medicament" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="nume" />
+                            <xs:element type="xs:string" name="afectiune_medicala" maxOccurs="unbounded" minOccurs="1" />
+                            <xs:element type="pret_tip" name="pret" />
+                            <xs:element name="prospect">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="mod_administrare" />
+                                        <xs:element type="xs:string" name="reactie_adversa" maxOccurs="unbounded" minOccurs="0" />
+                                        <xs:element name="substanta_activa" maxOccurs="unbounded" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="gramaj" use="required" />
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="producator">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:short" name="cod" use="required" />
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="pret_tip">
+        <xs:restriction base="xs:integer">
+            <xs:minExclusive value="0" />
+            <xs:maxInclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

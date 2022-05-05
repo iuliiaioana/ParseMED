@@ -1,0 +1,13 @@
+<!ELEMENT farmacie (medicament*)>
+<!ELEMENT medicament (nume, afectiune_medicala+,pret,prospect,producator)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT pret (#PCDATA)>
+<!ELEMENT prospect (mod_administrare, reactie_adversa*, substanta_activa+)>
+<!ELEMENT producator (#PCDATA)>
+<!ELEMENT substanta_activa (#PCDATA)>
+<!ELEMENT afectiune_medicala (#PCDATA)>
+<!ATTLIST producator cod CDATA #REQUIRED>
+<!ELEMENT mod_administrare (#PCDATA)>
+<!ELEMENT reactie_adversa (#PCDATA)>
+<!ATTLIST substanta_activa gramaj CDATA #REQUIRED>
+

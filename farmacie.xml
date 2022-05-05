@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="farmacie.xsl"?>
+<!DOCTYPE farmacie SYSTEM "farmacie.dtd">
+<farmacie>
+    <medicament>
+        <nume>Gaviscon Mentol</nume>
+        <afectiune_medicala>Gastrita</afectiune_medicala>
+        <afectiune_medicala>Reflux gastroesofagian</afectiune_medicala>
+        <afectiune_medicala>Ulcer</afectiune_medicala>
+        <pret>10</pret>
+        <prospect>
+            <mod_administrare>oral</mod_administrare>
+            <reactie_adversa>greata</reactie_adversa>
+            <substanta_activa gramaj="10mg">Carbonatul de calciu</substanta_activa>
+            <substanta_activa gramaj="10mg">Alginat de sodiu</substanta_activa>
+            <substanta_activa gramaj="10mg">Hidrogencarbonat de sodiu</substanta_activa>
+        </prospect>
+        <producator cod="11111">Reckitt Benckiser Healthcare</producator>
+    </medicament>
+    <medicament>
+        <nume>Vitamina C cu macese</nume>
+        <afectiune_medicala>Imunitate</afectiune_medicala>
+        <afectiune_medicala>Raceala</afectiune_medicala>
+        <pret>10</pret>
+        <prospect>
+            <mod_administrare>oral</mod_administrare>
+            <substanta_activa gramaj="20mg">Vitamina C</substanta_activa>
+        </prospect>
+        <producator cod="11211">VitaKing</producator>
+    </medicament>
+    <medicament>
+        <nume>Parasinus</nume>
+        <afectiune_medicala>Durere</afectiune_medicala>
+        <afectiune_medicala>Raceala</afectiune_medicala>
+        <afectiune_medicala>Gripa</afectiune_medicala>
+        <pret>10</pret>
+        <prospect>
+            <mod_administrare>oral</mod_administrare>
+            <substanta_activa gramaj="10mg">Paracetamol</substanta_activa>
+        </prospect>
+        <producator cod="14311">Labormed</producator>
+    </medicament>
+</farmacie>

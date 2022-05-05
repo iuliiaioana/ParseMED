@@ -1,0 +1,72 @@
+{
+    "medicament": [{
+            "nume": "Gaviscon Mentol",
+            "afectiune_medicala": [
+                "Gastrita",
+                "Reflux gastroesofagian",
+                "Ulcer"
+            ],
+            "pret": "10 lei",
+            "prospect": {
+                "mod_administrare": "oral",
+                "reactie_adversa": ["greata"],
+                "substanta_activa": [{
+                        "gramaj": "10mg",
+                        "text": "Carbonatul de calciu"
+                    },
+                    {
+                        "gramaj": "10mg",
+                        "text": "Alginat de sodiu"
+                    },
+                    {
+                        "gramaj": "10mg",
+                        "text": "Hidrogencarbonat de sodiu"
+                    }
+                ]
+            },
+            "producator": {
+                "cod": "11111",
+                "text": "Reckitt Benckiser Healthcare"
+            }
+        },
+        {
+            "nume": "Vitamina C cu macese",
+            "afectiune_medicala": [
+                "Imunitate",
+                "Raceala"
+            ],
+            "pret": "10 lei",
+            "prospect": {
+                "mod_administrare": "oral",
+                "substanta_activa": [{
+                    "gramaj": "20mg",
+                    "text": "Vitamina C"
+                }]
+            },
+            "producator": {
+                "cod": "11211",
+                "text": "VitaKing"
+            }
+        },
+        {
+            "nume": "Parasinus",
+            "afectiune_medicala": [
+                "Durere",
+                "Raceala",
+                "Gripa"
+            ],
+            "pret": "10 lei",
+            "prospect": {
+                "mod_administrare": "oral",
+                "substanta_activa": [{
+                    "gramaj": "10mg",
+                    "text": "Paracetamol"
+                }]
+            },
+            "producator": {
+                "cod": "14311",
+                "text": "Labormed"
+            }
+        }
+    ]
+}
