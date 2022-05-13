@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import os
+import webbrowser
 import xml.etree.ElementTree as ET
 from medicament import Medicament
 from validator import validate
@@ -98,6 +99,9 @@ elif option == "Show DTD":
     image = Image.open('assets/dtd_pic.PNG')
     st.image(image, caption='Fisierul DTD')
 elif option == "Show XML with XSL":
+    # xml_file_path = os.getcwd() + '/farmacie.xml'
+    xml_file_path= r'C:\\Users\\ianghel\Desktop\\xis\\farmacie.xml'
+    webbrowser.open_new_tab(xml_file_path)
     image = Image.open('assets/xml_xsl.PNG')
     st.image(image, caption='Fisierul DTD')
 elif option == "Show JSON":
