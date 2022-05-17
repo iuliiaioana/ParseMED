@@ -11,7 +11,7 @@
                             <xs:element name="prospect">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element type="xs:string" name="mod_administrare" />
+                                        <xs:element type="administrare_tip" name="mod_administrare" />
                                         <xs:element type="xs:string" name="reactie_adversa" maxOccurs="unbounded" minOccurs="0" />
                                         <xs:element name="substanta_activa" maxOccurs="unbounded" minOccurs="1">
                                             <xs:complexType>
@@ -43,7 +43,13 @@
     <xs:simpleType name="pret_tip">
         <xs:restriction base="xs:integer">
             <xs:minExclusive value="0" />
-            <xs:maxInclusive value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="administrare_tip">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="orala"/>
+            <xs:enumeration value="translinguala"/>
+            <xs:enumeration value="intravenosa"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

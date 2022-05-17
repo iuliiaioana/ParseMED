@@ -8,7 +8,7 @@
             ],
             "pret": "10 lei",
             "prospect": {
-                "mod_administrare": "oral",
+                "mod_administrare": "orala",
                 "reactie_adversa": ["greata"],
                 "substanta_activa": [{
                         "gramaj": "10mg",
@@ -37,7 +37,7 @@
             ],
             "pret": "10 lei",
             "prospect": {
-                "mod_administrare": "oral",
+                "mod_administrare": "orala",
                 "substanta_activa": [{
                     "gramaj": "20mg",
                     "text": "Vitamina C"
@@ -57,7 +57,7 @@
             ],
             "pret": "10 lei",
             "prospect": {
-                "mod_administrare": "oral",
+                "mod_administrare": "orala",
                 "substanta_activa": [{
                     "gramaj": "10mg",
                     "text": "Paracetamol"

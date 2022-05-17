@@ -9,7 +9,7 @@
         <afectiune_medicala>Ulcer</afectiune_medicala>
         <pret>10</pret>
         <prospect>
-            <mod_administrare>oral</mod_administrare>
+            <mod_administrare>orala</mod_administrare>
             <reactie_adversa>greata</reactie_adversa>
             <substanta_activa gramaj="10mg">Carbonatul de calciu</substanta_activa>
             <substanta_activa gramaj="10mg">Alginat de sodiu</substanta_activa>
@@ -23,7 +23,7 @@
         <afectiune_medicala>Raceala</afectiune_medicala>
         <pret>10</pret>
         <prospect>
-            <mod_administrare>oral</mod_administrare>
+            <mod_administrare>orala</mod_administrare>
             <substanta_activa gramaj="20mg">Vitamina C</substanta_activa>
         </prospect>
         <producator cod="11211">VitaKing</producator>
@@ -35,7 +35,7 @@
         <afectiune_medicala>Gripa</afectiune_medicala>
         <pret>10</pret>
         <prospect>
-            <mod_administrare>oral</mod_administrare>
+            <mod_administrare>orala</mod_administrare>
             <substanta_activa gramaj="10mg">Paracetamol</substanta_activa>
         </prospect>
         <producator cod="14311">Labormed</producator>
